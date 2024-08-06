@@ -1,0 +1,46 @@
+body{
+    margin:10px;
+    font-family:'Times New Roman', Times, serif;
+}
+h2{
+    color: white;
+    font-size: 50px;
+}
+#whole{
+    display: grid;
+}
+#Header{
+    display: grid;
+    gap: 50px 100px;
+    background-color: blue;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#center{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    text-align: center;
+}
+.nav{
+    display: grid;
+    background-color: skyblue;
+    height:500px;
+}
+.main{
+    display: grid;
+    background-color: grey;
+    height:500px;
+}
+.side{
+    display: grid;
+    background-color:skyblue;
+    height:500px;
+}
+#Footer{
+    display: grid;
+    gap: 50px 100px;
+    background-color: blue;
+    text-align: center;
+    margin-top: 10px;
+}
